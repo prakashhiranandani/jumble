@@ -1,0 +1,20 @@
+In order to solve this, we need to generate the combinations of the string and then permute the string to check if they are valid dictionary words.
+
+I did refer for the algorithm for generating the combinations, but permutations was a simple recursive program.
+Downloaded the dictionary from:
+
+https://code.google.com/p/dotnetperls-controls/downloads/detail?name=enable1.txt
+Read the entire dictionary into a hash set and then check if it containts the string.
+
+In order to compile the given program:
+
+javac Jumble.java
+
+In order to run the given program
+
+java Jumble <string to generate jumble for> dictionary.txt<attached>
+
+Tested it for empty string ""
+Numbers .
+Invalid dictionary
+Invalid command line arguments
